@@ -1,0 +1,6 @@
+to compile: gcc scheduler.c -std=c99
+to run: ./a.out [--verbose] input-NUMBER.txt random-numbers.txt [f,s,u,r]
+
+- optional verbose flag to get cycle-by-cycle output
+- required last argument that determines which scheduler gets run
+(f)cfs, (s)hortest job first, (u)niprogrammed, (r)ound robin
